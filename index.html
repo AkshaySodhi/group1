@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Mash-Mart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/721a361508.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+      <div class="rightnav">
+        <input type"text" name="search" id="search" placeholder="What's on your mind today?">
+      </div>
+  <div class="header">
+  <div class="container">
+  <div class="navbar">
+    <div class="logo">
+      <img src="logo.png" width="60px">
+      <div>Mash-Mart</div>
+    </div>
+    <nav>
+      <ul id="menuitems">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Wishlist</a></li>
+        <li><a href="#">Account</a></li>
+      </ul>
+    </nav>
+    <img src="cart.png" class="menu">
+    <img src="menu.png" class="menu"onclick="menutoggle()">
+  </div>
+  <div class="row">
+    <div class="col2">
+      <h1>Mega Jaw Dropping Deals!</h1>
+      <p>Get here deals of the day, season's top choices! <br> One stop for everything you need!</p>
+      <a href="#" class="btn">Explore Now &#8594</a>
+      </div>
+      <div class="col2">
+        <img src="bag.jpg">
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="smallcontainer">
+  <div class="categories">
+    <div class="col3">
+      <img src="hood.jpg">
+    </div>
+    <div class="col3">
+      <img src="shoe2.jpg">
+      </div>
+      <div class="col3">
+       <img src="bluet.jpg"> 
+      </div>
+  </div>
+  </div>
+      <div class="smallcontainer">
+        <div class="row">
+          <div class="col2">
+  
+            <div class="col2">
+              <img src="sale.png" class="offering">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  <div class="smallcontainer">
+    <h2 class="title">What's trending!</h2>
+    <div class="row">
+      <div class="col4">
+        <img src="khakijacket.jpg">
+        <h4> Khaki Men's Jacket</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          </div>
+        <p>&#8377 1999.00</p>
+      </div>
+       <div class="col4">
+       <img src="whiteshirt.jpg">
+              <h4> White Women's shirt</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa solid fa-star-half"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>&#8377 699.00</p>
+            </div>
+          
+      <div class="col4">
+        <img src="pantswomen.jpg">
+        <h4>Men's Trousers</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          </div>
+        <p>&#8377 999.00</p>
+      </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+        <div class="row">
+          <div class="col4">
+            <img src="shoe2.jpg">
+            <h4>Women's peach sneakers</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>&#8377 3999.00</p>
+          </div>
+          <div class="col4">
+            <img src="dress1.jpg">
+            <h4>Women's knee length dress</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>&#8377 1299.00</p>
+          </div>
+           <div class="col4">
+             <img src="whiteshirt.jpg">
+             <h4> White Women's shirt</h4>
+             <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa solid fa-star-half"></i>
+               <i class="fa fa-star-o"></i>
+             </div>
+             <p>&#8377 699.00</p>
+           </div>
+            <div class="col4">
+              <img src="hoodie2.jpg">
+              <h4> Hoodie </h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa solid fa-star-half"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>&#8377 699.00</p>
+            </div>
+             <div class="col4">
+               <img src="yellows.jpg">
+               <h4> Yellow sneakers</h4>
+               <div class="rating">
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa solid fa-star-half"></i>
+                 <i class="fa fa-star-o"></i>
+               </div>
+               <p>&#8377 4699.00</p>
+             </div>
+    
+          <div class="col4">
+            <img src="hoodie1.jpg">
+            <h4>Unisex hoodie</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>&#8377 599.00</p>
+          </div>
+        </div>
+            <div class="row">
+              <div class="col4">
+                <img src="sneakersBlack.png">
+                <h4>Trendy Black Sneakers</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377 3890.00</p>
+              </div>
+              <div class="col4">
+                <img src="jeans.jpg">
+                <h4>Women blue denims</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377 999.00</p>
+              </div>
+        
+              <div class="col4">
+                <img src="tshirtW.jpg">
+                <h4>Men's Half-sleeve tshirt</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8377 499.00</p>
+              </div>
+            </div>
+  </div>
+    <div class="testimonial">
+      <div class="smallcontainer">
+        <div class="row">
+          <div class="col3">
+            <p> I was not sure about it while ordering but omg I loved this dress. The colour, quality, fit and pattern of the dress everything .Definitely worth the buy and a steal deal ! Should I buy the other colors also</p>
+          <img src="user.png">
+        <h3>Shreya</h3>
+        </div>
+                  <div class="col3">
+                    <p>Shirt is so amazing, it fit me really well and I got the same quality as mentioned in the description, Really love the colour of shirt. Fabric is best for both summer and winter season. </p>
+                    <img src="user.png">
+                    <h3>Kartik</h3>
+                  </div>
+                            <div class="col3">
+                              <p>Good product size as expected,I am recommending you guys, there are no issues in the product.If you are looking for a pair of comfortable and stylish trousers then go for it with no second thoughts</p>
+                              <img src="user.png">
+                              <h3>Rohan</h3>
+                            </div>
+      </div>
+    </div>
+  </div>
+  <!--brands-->
+  <div class="brands">
+  <div class="smallcontainer">
+    <div class="row">
+      <div class="col-5">
+        <img src="brand1.jpg" alt="">
+      </div>
+      <div class="col-5">
+        <img src="brand2.jpg"">
+      </div>
+      <div class="col-5">
+        <img src="brand3.jpg" alt="">
+      </div>
+      <div class="col-5">
+        <img src="brand4.jpg" alt="">
+      </div>
+      <div class="col-5">
+        <img src="brand5.jpg" alt="">
+      </div>
+     </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footercol1">
+          <h3> Download Our App</h3>
+          <p> Download App for Android and IOS mobile phone.</p>
+          <div class="applogo">
+            <img src="playstore.png">
+            <img src="apple.png">
+          </div>
+        </div>
+        <div class="footercol2">
+          <img src="logo.png">
+          <p>Our Purpose is to sustainably make the pleasure and benfits of quality and comfort to the many.</p>
+          </div>
+          <div class="footercol3">
+            <h3> Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          
+          <div class="footercol4">
+            <h3>Follow us</h3>
+            <ul>
+              <li><a href="https://facebook.com"target="_blank">Facebook</a></li>
+              <li><a href="https://twitter.com"target="_blank">Twitter</a></li>
+              <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+              <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+            </ul>
+          </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright &copy 2022 Platform Group-1</p>
+    </div>
+  </div>
+</body>
+</html>
